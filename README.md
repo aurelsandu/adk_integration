@@ -1,4 +1,4 @@
-# Neuro-Symbolic AI Agent: Google ADK meets Modular A* Planning
+# Symbolic AI Agent: Google ADK meets Modular A* Planning
 
 An experimental proof-of-concept demonstrating how to bridge **probabilistic generative AI** (Google Agent Development Kit & Gemini) with **symbolic deterministic reasoning** (a decoupled, high-performance A* search engine) in Go.
 
@@ -41,8 +41,4 @@ The agent navigates a text-based grid maze (S = Start, E = Exit, # = Wall, * = T
 . . . # . . E
 
 ![A* Maze Animation](https://raw.githubusercontent.com/aurelsandu/adk_integration/main/assets/maze_demo.gif)
-📦 Getting StartedPrerequisitesGo 1.22 or higher installed on your system.Installation & ExecutionClone the repository:Bashgit clone [https://github.com/aurelsandu/adk-integration.git](https://github.com/aurelsandu/adk-integration.git)
-cd adk-integration
-Initialize dependencies (if needed):Bashgo mod tidy
-Run the application (featuring live step-by-step terminal animation):Bashgo run main.go
-🧠 Theory & HeuristicsAdmissibility & Consistency: The heuristic function uses the Manhattan Distance ($h(n) \le h^*(n)$), ensuring that the estimated remaining cost never overestimates the actual shortest path, guaranteeing optimal path discovery without exploring unnecessary states.Why Neuro-Symbolic? Combining LLM intent parsing with exact symbolic graph search eliminates spatial hallucinations and guarantees robust execution for critical routing tasks.🛡️ LicenseDistributed under the MIT License. See LICENSE for more information.
+
