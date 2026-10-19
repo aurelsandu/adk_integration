@@ -34,5 +34,5 @@ adapters/: Exposes the deterministic solvers as structured tools consumable by t
 🚀 Visual Demonstration
 The agent navigates a text-based grid maze (S = Start, E = Exit, # = Wall, * = Traveled Path) avoiding all obstacles with 100% mathematical optimality:
 
-<img src="./assets/maze_demo.gif" alt="A* Maze Animation" width="600">
+![A* Maze Animation](assets/maze_demo.gif)
 
