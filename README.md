@@ -34,4 +34,4 @@ adapters/: Exposes the deterministic solvers as structured tools consumable by t
 🚀 Visual Demonstration
 The agent navigates a text-based grid maze (S = Start, E = Exit, # = Wall, * = Traveled Path) avoiding all obstacles with 100% mathematical optimality:
 
-**Visual Demo:** You can check out the live terminal execution animation in [`assets/maze_demo.gif`](./assets/maze_demo.gif) to see the A* pathfinding agent in action.
+**Visual Demo:** You can check out the live terminal execution animation in [`assets/maze_demo.gif`] to see the A* pathfinding agent in action.
