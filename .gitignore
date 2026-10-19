@@ -1,0 +1,37 @@
+# === Go Executables & Binaries ===
+# Binare compilate local
+*.exe
+*.exe-
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+/adk_integration
+
+# === IDE & OS Files ===
+# VS Code / JetBrains / Linux & Windows
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Environment & Secrets ===
+# Fișiere de mediu (să nu urci chei API din greșeală pe public)
+.env
+.env.local
+*.pem
+*.key
+
+# === Large Models & AI Artifacts ===
+# În caz că descarci/testezi modele locale mari
+*.onnx
+*.bin
+*.pth
+*.safetensors
+*.gguf
+/models/
